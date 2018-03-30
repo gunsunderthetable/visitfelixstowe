@@ -1,0 +1,58 @@
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€œ', '“');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€', '”');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€™', '’');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€˜', '‘');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€”', '–');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€“', '—');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€¢', '-');
+UPDATE SiteTree SET Content = REPLACE(Content, 'Â', ' ');
+
+UPDATE SiteTree SET Title = REPLACE(Title, 'â€œ', '“');
+UPDATE SiteTree SET Title = REPLACE(Title, 'â€', '”');
+UPDATE SiteTree SET Title = REPLACE(Title, 'â€™', '’');
+UPDATE SiteTree SET Title = REPLACE(Title, 'â€˜', '‘');
+UPDATE SiteTree SET Title = REPLACE(Title, 'â€”', '–');
+UPDATE SiteTree SET Title = REPLACE(Title, 'â€“', '—');
+UPDATE SiteTree SET Title = REPLACE(Title, 'â€¢', '-');
+UPDATE SiteTree SET Title = REPLACE(Title, 'Â', ' ');
+
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€œ', '“');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€', '”');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€™', '’');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€˜', '‘');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€”', '–');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€“', '—');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€¢', '-');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'Â', ' ');
+
+UPDATE SiteTree_Live SET Title = REPLACE(Title, 'â€œ', '“');
+UPDATE SiteTree_Live SET Title = REPLACE(Title, 'â€', '”');
+UPDATE SiteTree_Live SET Title = REPLACE(Title, 'â€™', '’');
+UPDATE SiteTree_Live SET Title = REPLACE(Title, 'â€˜', '‘');
+UPDATE SiteTree_Live SET Title = REPLACE(Title, 'â€”', '–');
+UPDATE SiteTree_Live SET Title = REPLACE(Title, 'â€“', '—');
+UPDATE SiteTree_Live SET Title = REPLACE(Title, 'â€¢', '-');
+UPDATE SiteTree_Live SET Title = REPLACE(Title, 'Â', ' ');
+
+
+
+UPDATE SiteTree SET ClassName = 'BlogHolder' WHERE ClassName = 'MyBlogHolder';
+UPDATE SiteTree SET ClassName = 'BlogEntry' WHERE ClassName = 'BlogArticle';
+
+UPDATE SiteTree_Live SET ClassName = 'BlogHolder' WHERE ClassName = 'MyBlogHolder';
+UPDATE SiteTree_Live SET ClassName = 'BlogEntry' WHERE ClassName = 'BlogArticle';
+
+UPDATE SiteTree SET ClassName = 'Calendar' WHERE ClassName = 'EventHolder';
+UPDATE SiteTree SET ClassName = 'CalendarEvent' WHERE ClassName = 'EventPage';
+
+UPDATE SiteTree_Live SET ClassName = 'Calendar' WHERE ClassName = 'EventHolder';
+UPDATE SiteTree_Live SET ClassName = 'CalendarEvent' WHERE ClassName = 'EventPage';
+
+INSERT into CalendarDateTime (StartDate, EndDate, StartTime, EndTime, EventID)
+select  StartDate, EndDate, StartTime, EndTime, ID from EventPage;
+
+INSERT into CalendarEvent (Location, ID)
+select  Address, ID from EventPage;
+
+INSERT into Calendar (ID)
+select  ID from EventHolder;

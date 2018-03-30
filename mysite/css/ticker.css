@@ -1,0 +1,36 @@
+.ticker {
+	margin:0 ;
+	background:#dbe4f5;
+}
+.ticker ul {
+	padding:0;
+	list-style:none;
+	width:100%;
+	
+}
+.ticker li {
+	padding:5%;
+	background:white;
+}
+.ticker li:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+.ticker img {
+	float:left;
+	width:33%;
+	height:auto;
+	margin:5px 4% 0 0;
+}
+.ticker img:hover {
+	opacity:0.8;
+}
+.ticker h3 {
+	margin-top:0;
+}
+.ticker p {
+	margin:4px 0 0;font-size:14px;
+}
+
+.et-run{background-color:#0cf;color:white;border:1px solid black;}

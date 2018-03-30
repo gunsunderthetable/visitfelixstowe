@@ -1,0 +1,25 @@
+Here are the actions for Adrian:
+
+
+Change homepage fields to editable fields for notices and what's on so we have flexibility to change if we need to - done.
+
+Add in extra spacing between each top level navigation label and enable a a different background shade behind a tabwhen a users selects it - done
+
+Introduce a listing page template to use as an alternative to the current landing page - that is populated with page title and entry summary of the child pages (Emma we will show you this when we have it to use) - done
+
+Setup a page to pull in existing church centre calander from Team up. 
+Link: www.stmargaretsipswich.org.uk/pages/home-page/community/church-centre/availability.php
+
+Donation button - setup fixed position for button to go. Margaret to check with David about which provider we use. This is not needed for launch of new website. For now, we can have a page about how to donate with the banking details until the online option becomes available.
+
+Make the logo a live link to the homepage of the website - done
+
+Check files to see if overriding files with same file name happens. I expected this to happen from experience of using SilverStripe. Avoids old files with similar file names being stored and used
+
+Check image settings as per Quentin's example where a grey background colour was appearing - done.
+
+and enable option for caption text and link to be available to use on homepage images in carousel / slide
+
+Change the tone of the main body font to a darker tone (not black) so it stands out more against the white background - done
+
+

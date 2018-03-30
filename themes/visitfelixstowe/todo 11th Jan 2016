@@ -1,0 +1,24 @@
+Outstanding issues
+Page links on headers/banners don’t work ** done
+Need cookies copy ** done
+Please add events search to right hand column of this page:
+http://visitfelixstowe.testing.suffolkbiz.default.suffolkbiz.uk0.bigv.io/whats-on - done...
+
+When you select all of January in the Events Diary, and scroll to bottom there is the words ‘view more’, but this repeats all of January again… please remove
+When you highlight an event on a page and try to link to an event it says ‘too many pages’ still. Although I can get around this by searching for the event.
+
+I’ve changed the events diary first page to show all of the month of January, but its not working. Under the three which are showing (Sunday and Country Market, Mystery Crafty Session) there should be around another 20 to the end of Jan - such as Felixstowe Community Market, Swing with Laugher and Mayors Charity Quiz Night
+
+The location line is missing from some events still, eg Mayor’s Charity Quiz Night - seems ok to me?
+
+In the Things to Do, Eat and Drink and Shopping sections, none of the entries are showing their address line (eg street, postcode). Maps are showing fine. If this is an issue you can’t sort, I can go through and add this into their description of course.
+
+Things to Do, please remove the list of attractions in the right hand column from all the individual attraction entries so the pictures and map move up to top.
+Things to do - add listing page?
+Coloured boxes - bars don’t cover all of picture (orange, yellow and green) *** done
+Can you check that events are coming off the live listing once they have passed, as this was not happening yesterday
+We don’t need the search options on individual events, this means map will come up to top *** done
+
+update SiteTree
+set ParentId = '5304'
+where ClassName="CalendarEvent'

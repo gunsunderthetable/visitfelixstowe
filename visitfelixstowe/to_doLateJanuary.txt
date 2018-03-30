@@ -1,0 +1,15 @@
+Adrian… this is what I have currently:
+
+
+1.      On the Home Page, I have used a ‘Related widget’ in the right hand column for the ‘Coming Up’ events bit. For some reason on the four event it does not allow me to link to an event in the CMS correctly. It is permanently set on the Trimley Beer Festival. When I save a new event it just reverts back. All other three links on this widget are working okay.
+
+2.      You are probably working on this, but when you search for a month in the Events Diary, why is it bringing up events in January that have already happened? Surely they should come off after they have taking place?
+
+3.      In the Things to Do, Eat and Drink and Shopping sections, none of the entries are showing their address line (eg street, postcode). Maps are showing fine. If this is an issue you can’t sort, I can go through and add this into their description of course, but I think you said you can get this to work?
+
+4.      Things to Do and Events Diary, please remove the list of attractions OR events search in the right hand column from all the individual attraction and events entries so the pictures/or/and map move up to top.
+
+5. Noticed the search box and word ‘go’ is missing from the right hand column of three pages - the one below, PLUS The Seafront Gardens and Visitor Information. I think this is the new template you created? I’ve also tried to put a Image Link box in right hand column on these pages, but it won’t appear?
+
+
+6. On the Discover and Beaches pages… in the right hand column can the limit of the pictures in the right hand column be lifted. It only allows 12 images to show currently?

@@ -1,0 +1,31 @@
+right panel top - Yes the social media buttons with a link – just Facebook and Twitter would be good.
+
+1.       You were going to send me the pantone colours for the orange, blue, yellow and green you have used, as I want to incorporate these into the headers.
+
+2.       You were going to allow the WELCOME TO VISIT FELIXSTOWE header to be in lower case lettering.
+
+3.       Have you reduced the box size of the link widget?
+
+4.       Take out the VF logo at top of right hand column. I will create a social media link widget here.
+
+5.       How do I get that right hand column to order as it currently doesn’t seem to allow me to put anything above the News Bit?
+************************************************************************
+
+1.       What’s On
+The events are not showing at all so I can’t link to that area/or particular events. You are going to change the first page of What’s On to a Landing Page where I can create some box options, including one called Events Diary where will be put the full listing. *** done
+
+2.       Need to add YouTube icon to social media lists at top and bottom. Please put it third after Twitter and Facebook. *** done
+
+3.       Can those Image Links be ordered on the right hand side column by me? *** aye
+
+4.       In the sections I have created in Things to Do and Visitor Information, I’m not getting the breadcrumb? *** fixed
+
+5.       I see you have put on the Events bit in the right hand column. Can you select which events go there, for example I normally do a this weekend bit? It's using the first events it finds.... I can create widgets for news and events I think?
+
+6.       The Suffolk Cloud logo at very bottom of each page has a broken link. *** fixed
+
+7.       Is it possible to get a bit of our logo in the tab at very top instead of the ‘S’ which I take is Suffolk Biz? *** done
+
+8.       Have you got copy on Cookies for this website?
+
+9.       In Where to Stay, Shopping and Eat and Drink, in the right hand column there is the words NOIMAGES, how do I get rid of this? *** eliminated

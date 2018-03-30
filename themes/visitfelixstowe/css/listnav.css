@@ -1,0 +1,69 @@
+#businessListing {
+    position:relative;
+}
+.listNav {
+    margin:0 0 10px;
+}
+.ln-letters { 
+    overflow:hidden; 
+    position:relative;
+    width:auto;
+}
+.ln-letters a {
+    font-size:0.9em; 
+    display:block; 
+    float:left; 
+    padding:2px 4px; 
+    border:1px solid silver; 
+    border-right:none; 
+    text-decoration:none; 
+}
+.ln-letters a.ln-last { 
+    border-right:1px solid silver; 
+}
+.ln-letters a:hover,
+.ln-letters a.ln-selected { 
+    background-color:#eaeaea; 
+}
+.ln-letters a.ln-disabled { 
+    color:#ccc; 
+}
+.ln-letter-count { 
+    text-align:center; 
+    font-size:0.8em; 
+    line-height:1; 
+    margin-bottom:3px; 
+    color:#336699; 
+}
+ul#myList {
+    padding-top:20px;
+}
+
+ul#myList li {
+    display:none;
+
+}
+.pageContent ul#myList li {
+    list-style-type:none;
+    margin-left: 0;
+}
+.pageContent #searchResults ul li {
+    list-style-type: none;
+    margin-left: 0;
+
+}
+#searchResults span.highlight {
+    font-weight:bold;
+}
+
+#mainContent.atozRecycling h3 {
+    padding-bottom:8px;
+}
+
+#myList-nav {
+    position: relative;
+    width:100%;
+    font-weight:700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:2.6em;
+}

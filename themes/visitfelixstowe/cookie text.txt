@@ -1,0 +1,13 @@
+Cookies
+
+The cookies we currently use are: 
+
+Session cookies - used by our content management system to support website navigation.
+Google Analytics – for providing details about visitors, how people navigate the site and what pages are visited more than others.
+
+Cookie category	Cookies in use:
+Category 1
+(Strictly necessary cookies)	CMS session cookies.	These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. Without these cookies services you have asked for, like shopping baskets or e-billing, cannot be provided.
+Category 2
+(Performance Cookies)	Google Analytics.	These cookies collect information about how visitors use a website, for instance which pages visitors go to most often, and if they get error messages from web pages.
+These cookies don’t collect information that identifies a visitor. All information these cookies collect is aggregated and therefore anonymous. It is only used to improve how a website works.
